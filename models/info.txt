@@ -1,3 +1,0 @@
-please contact the author at sarang.galada@gmail.com for access
-
-The models can be trained by running code/train.py and will be automatically saved here
