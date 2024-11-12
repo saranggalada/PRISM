@@ -2,7 +2,7 @@
 
 ## PRISM: Privacy-preserving Inter-Site MRI Harmonization via Disentangled Representation Learning
 
-- Paper: [arXiv](https://arxiv.org/abs/2411.06513)
+- Paper: [arXiv preprint](https://arxiv.org/abs/2411.06513) (_submitted to ISBI 2025_)
 - Cite:
   
   ```bibtex
@@ -18,7 +18,18 @@
   ```
 ---
 
-#### Usage:
+### Usage:
 - Preprocessing: _To be updated soon_
-- Training: Run the PRISM-training notebook in the /code folder separately for each MRI site dataset and save the models
+- Training: Run the [PRISM-training](code/PRISM-Training.ipynb) notebook in the [/code](code/) folder separately for each MRI site dataset and save the models
 - Inference: _To be updated soon_
+
+---
+
+### Architecture:
+![PRISM Architecture](results/Fig2_PRISM-Architecture.png)
+
+---
+
+### Results:
+![Harmonized](results/Fig3_Harmonization-results.png)
+
