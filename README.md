@@ -1,4 +1,4 @@
-![PRISM Logo](img/PRISM logo.png)
+![PRISM Logo](img/PRISM_logo.png)
 
 # PRISM: Privacy-preserving Inter-Site MRI Harmonization via Disentangled Representation Learning
 
