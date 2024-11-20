@@ -1,3 +1,5 @@
+### ====== PRISM MRI IMAGE DATASET ======
+ 
 import torch
 from torch.utils.data.dataset import Dataset
 from torchvision.transforms import Compose, Pad, CenterCrop, ToTensor, ToPILImage, Resize
@@ -5,8 +7,6 @@ import augmentations as aug
 from PIL import Image
 import glob
 import os
-
-### ====== MRI IMAGE DATASET ======
 
 default_transform = Compose([ToPILImage(), Pad(63), CenterCrop([256, 256])])
 

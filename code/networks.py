@@ -1,8 +1,8 @@
+### ====== PRISM NETWORK ARCHITECTURES ======
+
 import torch
 from torch import nn
 from torch.nn import functional as F
-
-### ====== NETWORK ARCHITECTURES ======
 
 class ConvBlock2d(nn.Module):
     def __init__(self, in_ch, mid_ch, out_ch):

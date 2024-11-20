@@ -1,7 +1,6 @@
+### ====== PRISM MRI AUGMENTATION FUNCTIONS ======
+
 import numpy as np
-
-### ====== MRI AUGMENTATION FUNCTIONS ======
-
 
 # 1. Gamma Correction
 def gamma_correction(image: np.ndarray, gamma: float = 1.0) -> np.ndarray:

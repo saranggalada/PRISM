@@ -1,8 +1,8 @@
+### ====== PRISM TRAINING ======
+
 import torch
 from model import PRISM
 from dataset import PRISM_MRI_Dataset
-
-### ====== PRISM TRAIN ======
 
 torch.autograd.set_detect_anomaly(True)
 

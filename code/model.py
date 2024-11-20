@@ -1,3 +1,5 @@
+### ====== PRISM MODEL ======
+
 import torch
 from torch import nn
 from torch.nn import functional as F
@@ -9,9 +11,6 @@ from torch.utils.data import DataLoader
 from torch.optim import Adam
 from torch.optim.lr_scheduler import CyclicLR
 from tqdm import tqdm
-
-
-### ====== PRISM MODEL ======
 
 class PRISM:
     def __init__(self, intensity_levels, latent_dim, num_sites=3, gpu_id=0, modality='T2', modalities = ['T2', 'PD']):
