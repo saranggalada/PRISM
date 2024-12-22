@@ -22,8 +22,8 @@
 ### Usage:
 
 1. Clone / download this repository, navigate to the [code](code/) folder and `pip install requirements.txt`
-2. Skull strip your MRI volumes using `FreeSurfer` / `FSL` software (aka Brain extraction).
-3. Run [MRI-Slicer.py](code/preprocessing/MRI-Slicer.py) on the stripped MRI data.
+2. Skull strip your MRI volumes using `FreeSurfer` / `FSL` software (aka Brain extraction). [If you don't have MRI data, the openly available IXI Dataset is the easiest option.]
+3. Run [MRI-Slicer.py](code/preprocessing/MRI-Slicer.py) on the stripped MRI volumes. [_Note: In some cases, where the MRI volumes are stored in different orientations, you may need to manually reorient the data_]
 4. Run [folder2dataset.py](code/preprocessing/folder2dataset.py) to generate separate custom MRI datasets (incl. augmentations) for each site.
 5. To train the PRISM model on each site, follow the [PRISM-training.ipynb](code/demo-notebooks/PRISM-training.ipynb) notebook. Alternatively, run [train.py](code/train.py). Repeat the training procedure for each participating site.
 6. With the models now trained, follow the [PRISM-inference.ipynb](code/demo-notebooks/PRISM-inference.ipynb) notebook to harmonize the MRI without any data exchange, as per the `PRISM` framework. Alternatively, run [harmonize.py](code/harmonize.py).
