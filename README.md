@@ -4,7 +4,7 @@
 
 ## PRISM: Privacy-preserving Inter-Site MRI Harmonization via Disentangled Representation Learning
 
-- Paper: [arXiv preprint](https://arxiv.org/abs/2411.06513) (_submitted to ISBI 2025_)
+- Paper: [arXiv preprint](https://arxiv.org/abs/2411.06513) (_Accepted to ISBI 2025_)
 - Cite:
   ```bibtex
   @misc{galada2024prismprivacypreservingintersitemri,
